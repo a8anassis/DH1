@@ -1,0 +1,118 @@
+<!--index.html file-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSc Digital Humanities</title>
+    <link rel="stylesheet" href="test.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <a class="link-aueb" href="https://aueb.gr/" target="_blank">
+        <img src="./img/logo_100y.jpg" alt="AUEB Logo 100 years" >
+    </a>
+    
+    <h1 class="text-title">MSc Digital Humanities</h1>
+    <p class="text-msc">
+        The Postgraduate Program in Digital Methods 
+        for the Humanities aims to provide university 
+        graduates with specialized postgraduate knowledge 
+        in the development and application of digital methods 
+        in the humanities. The purpose of the Program is to 
+        promote knowledge, develop an interdisciplinary approach
+        and research and prepare for productive and research 
+        participation in the development of the interdisciplinary 
+        area that has begun to be established under the name 
+        "Digital Humanities". Graduates of the Program will be able 
+        to take on research, productive, documentation, editing, 
+        organizing and managing information resources and management 
+        roles in projects with intense use of digital media and 
+        techniques in the fields of humanities and cultural heritage.
+    </p>
+    <a class="link-msc" href="http://aueb.gr">AUEB Website</a><br>
+    <a class="link-msc" href="https://www.dept.aueb.gr/en/node/17211" 
+        target="_blank">Visit MSc Digital Humanities Website</a>
+
+        <br><br><hr>
+
+        <h2>Διδάσκοντες</h2>
+        <table class="teachers-table">
+            <tr>
+                <th>Ονοματεπώνυμο</th>
+                <th>Διδασκόμενο Μάθημα</th>
+            </tr>
+            <tr>
+                <td>Ανδρούτσος Αθ.</td>
+                <td>Σχεδιαστική Σκέψη και Καινοτομία</td>
+            </tr>
+            <tr>
+                <td>Δημάκης Αντ.</td>
+                <td>Προγραμματισμός σε Python</td>
+            </tr>
+            <tr>
+                <td>Παπαϊωνάννου Γ.</td>
+                <td>Διαδραστικός Σχεδιασμός και Πολυμέσα</td>
+            </tr>
+        </table>
+
+
+        <h2>Υποχρεωτικά Μαθήματα</h2>
+        <ul style="list-style-type: disc;">
+            <li>Προγραμματισμός σε Python</li>
+            <li>Παράσταση και οργάνωση πληροφορίας και γνώσης</li>
+            <li>Διαχείριση, επιμέλεια και έκδοση ψηφιακών πόρων</li>
+            <li>Διαχείριση δεδομένων</li>
+            <li>Εφαρμογές ψηφιακών μεθόδων στις Ανθρωπιστικές Επιστήμες</li>
+        </ul>
+
+
+        <h3>Μαθήματα Επιλογής</h3>
+        <ol type="1">
+            <li>Γλωσσική Τεχνολογία</li>
+            <li>Τεχνολογίες ψηφιοποίησης, τεχνικές και εφαρμογές</li>
+            <li>Διαδραστικός σχεδιασμός και πολυμέσα</li>
+        </ol>    
+        
+
+
+
+<h1>Στοιχεία Ενδιαφερόμενου</h1>
+<form>
+    <table>
+        <tr>
+            <td><label for="lastName">Επώνυμο:</label></td>
+            <td><input type="text" id="lastName" name="lastname" placeholder="Δώστε το επώνυμό σας"></td>
+        </tr>
+        <tr>
+            <td><label for="firstname">Όνομα:</label></td>
+            <td><input type="text" id="firstname" name="firstname" placeholder="Δώστε το όνομά σας"></td>
+        </tr>
+        <tr>
+            <td>Φύλο:</td>
+            <td><input type="radio" id="female" name="gender" value="female" checked> <label for="female">Γυναίκα</label> <br>
+            <input type="radio" id="male" name="gender" value="male"> <label for="male">Άνδρας</label></td>
+        </tr>
+        <tr>
+            <td><label for="level">Επίπεδο:</label></td>
+            <td><select id="level" name="level">
+                    <option value="bsc">BSc</option>
+                    <option value="msc">MSc</option>
+                    <option value="phd">PhD</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="comments">Comments:</label></td>
+            <td><textarea id="comments" name="comments" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="alert('Τα στοιχεία εστάλησαν επιτυχώς')" value="Αποστολή"></td>
+            <td></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

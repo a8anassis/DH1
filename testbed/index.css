@@ -1,0 +1,61 @@
+/* body {
+    background-image: url(img/DigiHum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; 
+} */
+
+.text-msc {
+    color: red; 
+    background-color: black;
+    text-shadow: 2px 2px 2px green;
+}
+
+p {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+    color: #363636;
+
+    text-align: justify;
+}
+
+.link-msc:hover {
+    color: red;
+} 
+
+.link-msc:active {
+    color: green;
+}
+
+.text-teachers {
+    width: 130px;
+    border: 1px solid black;
+}
+
+.img-logo>img {
+    width: 100%;
+    height: auto;
+}
+
+.myuni {
+    font-size: 16em;
+    color: brown;
+}
+
+.teachers-table, .teachers-table th, .teachers-table td  {
+    border: 1px solid red;
+}
+
+.teachers-table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.teachers-table td {
+    height: 50px;
+    text-align: center;
+}

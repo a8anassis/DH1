@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*body {
+    background-image: url('./testbed/img/DigiHum.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}*/
+
+.text-title {
+    width: 400px;
+    min-height: 60px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px auto;
+
+    font-family: 'Quicksand', 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #762124;
+    background-color: rgb(0, 0, 0, 0.7);
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px white;
+}
+
+.text-content {
+    width: 400px;
+    min-height: 50px;
+    border: 1px solid black;
+    padding: 40px;
+    margin: 30px 20px;
+
+    text-indent: 10px;
+    font-family: 'Roboto', serif;
+    text-align: justify;
+}
+
+.link-aueb > img {
+    width: 600px;
+    height: auto;
+}
+
+.link-auebinf:hover {
+    color: red;
+}
+
+.link-auebinf:active {
+    color: green;
+}
+
+.fa-facebook-square, .fa-twitter-square {
+    font-size: 30px;
+    color: blue;
+}
+
+table, th, td {
+    border: 1px solid black; 
+    width: 500px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: blue;
+}
+
+td {
+    text-align: center;
+}
+

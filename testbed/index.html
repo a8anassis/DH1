@@ -1,0 +1,93 @@
+<!-- author: thanassis -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSc Digital Humanities</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,600&display=swap" 
+    rel="stylesheet"> 
+    <link rel="stylesheet" 
+        href="http://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+</head>
+<body>
+    
+    <a class="img-logo" href="https://aueb.gr/" target="_blank">
+        <img src="img/logo_100y.jpg" alt="AUEB-100-YEARS">
+    </a>
+    
+    <h1 class="text-msc">MSc Digital Humanities</h1>
+    <p>
+        The Postgraduate Program in Digital Methods for the Humanities 
+        aims to provide university graduates with specialized postgraduate 
+        knowledge in the development and application of digital methods in 
+        the humanities. The purpose of the Program is to promote knowledge, 
+        develop an interdisciplinary approach and research and prepare for 
+        productive and research participation in the development of the
+         interdisciplinary area that has begun to be established under 
+         the name "Digital Humanities - Digital Humanities". Graduates 
+         of the Program will be able to take on research, productive, 
+         documentation, editing, organization and management of information 
+         resources and management roles in projects with intense use of digital 
+         media and techniques in the fields of humanities and cultural heritage.
+
+    </p>
+    <a class="link-msc" href="https://www.dept.aueb.gr/el/MScdmh" 
+        target="_blank">Visit MSc Digital Humanities WebSite</a>
+
+    <br><br>
+    <h2 class="text-teachers">Διδάσκοντες</h2>
+    
+    <table class="teachers-table">
+        <tr>
+            <th>Ονοματεπώνυμο</th>
+            <th>Διδασκόμενο Μάθημα</th>
+        </tr>
+        <tr>
+            <td>Ανδρούτσος Αθ.</td>
+            <td>Σχεδιαστική Σκέψη και Καινοτομία</td>
+        </tr>
+        <tr>
+            <td>Δημάκης Αντ.</td>
+            <td>Προγραμματισμός σε Python</td>
+        </tr>
+    </table>
+
+    <i class="myuni fas fa-university"></i>
+
+    <h2>Υποχρεωτικά Μαθήματα</h2>
+    <ul style="list-style-type: disc;">
+        <li>Προγραμματισμός σε Python</li>
+        <li>Παρουσίαση και Οργάνωση Πληροφορίς</li>
+        <li>Διαχείριση Δεδομένων</li>
+        <li>Εφαρμογές Ψηφιακών Μεθόδων στις Ανθρωπιστικές Επιστήμες</li>
+    </ul>
+
+    <h3>Μαθήματα Επιλογής</h3>
+    <ol type="i">
+        <li>Γλωσσική Τεχνολογία</li>
+        <li>Τεχνολογίες Ψηφιοποίησης</li>
+        <li>Διαδραστικός Σχεδιασμός και Πολυμέσα</li>
+    </ol>
+
+    <h1 class="text-msc">Στοιχεία Ενδιαφερόμενου</h1>
+
+    <form>
+
+        <label for="lastName">Επώνυμο</label><input id="lastName" type="text"><br>
+        <label for="firstName">Όνομα</label><input id="firstName" type="text"><br>
+        Φύλο <input type="radio" id="female" name="gender" value="female" checked> <label for="female">Γυναίκα
+            <input type="radio" id="male" name="gender" value="male"> <label for="male">Άνδρας</label> <br>
+        <label for="level">Επίπεδο Σπουδών</label> <select id="level" name="level">
+                            <option value="bsc">BSc</option>
+                            <option value="msc">MSc</option>
+                            <option value="phd">PhD</option>
+                        </select><br>
+        <label for="comments">Σχόλια</label> <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
+        <input type="button" onclick="alert('Τα στοιχεία σας εστάλησαν επιτυχώς')" value="Αποστολή">
+
+    </form>
+</body>
+</html>

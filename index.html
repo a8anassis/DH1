@@ -1,0 +1,145 @@
+<!-- author: Th. Androutsos -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Informatics 2021</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+</head>
+<body>
+    <a class="link-aueb" href="https://aueb.gr/" target="_blank">
+        <img src="./img/aueb100.jpg" alt="AUEB 100 Years">
+    </a>
+    
+    <h1 class="text-title">Digital Humanities</h1><br>
+    <p class="text-content">The Department of Informatics of the Athens University of 
+        Economics and Business (AUEB) was founded in 1984, with 
+        the aim to provide innovative undergraduate and postgraduate 
+        education, along with research for the information and 
+        computing professions. Each year, the department welcomes 
+        approximately 250 undergraduate students along with many 
+        graduate students in its four specialized postgraduate 
+        programs and doctoral candidates.</p>
+
+    <p class="text-content">The Department of Informatics of the Athens University of 
+        Economics and Business (AUEB) was founded in 1984, with 
+        the aim to provide innovative undergraduate and postgraduate 
+        education, along with research for the information and 
+        computing professions. Each year, the department welcomes 
+        approximately 250 undergraduate students along with many 
+        graduate students in its four specialized postgraduate 
+        programs and doctoral candidates.</p>
+
+    <a class="link-auebinf" href="https://www.dept.aueb.gr/en/cs/content/department" target="_blank">Visit AUEB Informatics Department</a>
+    <br><br>
+
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-twitter-square"></i>
+
+    
+    <h1>Διδασκόμενα Μαθήματα</h1>
+    <table>
+        <tr>
+            <th>Ονοματεπώνυμο</th>
+            <th>Διδασκόμενο Μάθημα</th>
+        </tr>
+        <tr>
+            <td>Ανδρούτσος Αθανάσιος</td>
+            <td>Design Thinking and Innovation</td>
+        </tr>
+        <tr>
+            <td>Καπέτης Μάκης</td>
+            <td>Βάσεις Δεδομένων</td>
+        </tr>
+        <tr>
+            <td>Κωτίδης Ιωάννης</td>
+            <td>Σύγχρονες Βάσεις Δεδομένων</td>
+        </tr>
+    </table>
+
+    <h1>Υποχρεωτικά Μαθήματα</h1>
+    <ul>
+        <li>Βάσεις Δεδομένων</li>
+        <li>Προγραμματισμός με Python</li>
+        <li>Drupal</li>
+        <li>Προγραμματισμός με Java</li>
+    </ul>
+        
+    <h1>Μαθήματα Επιλογής</h1>
+    <ol>
+        <li>HTML/CSS</li>
+        <li>Design Thinking</li>
+        <li>Νομικά Θέματα</li>
+        <li>Angular/React JS</li>
+    </ol>
+
+    <h1>Λεξικό Όρων</h1>
+    <dl>
+        <dt>HTML/CSS</dt>
+        <dd>HyperText Mark-up Language/ Cascading Styling Sheets</dd>
+        <dt>HTTP</dt>
+        <dd>HyperText Transfer Protocol</dd>
+    </dl>
+    
+    
+    <h1>Στοιχεία Εκπαιδευομένου</h1>
+
+    <form>
+        <table>
+            <tr>
+                <td><label for="lastname">Επώνυμο</label></td>
+                <td><input type="text" id="lastname" maxlength="32"></td>
+            </tr>
+            <tr>
+                <td><label for="firstname">Όνομα</label></td>
+                <td><input type="text" id="firstname" maxlength="32"></td>
+
+            </tr>
+            <tr>
+                <td><label for="">Φύλο</label></td>
+                <td><input type="radio" id="male" name="gender" checked><label for="male">Άνδρας</label>
+                    <input type="radio" id="female" name="gender"><label for="female">Γυναίκα</label></td>
+            </tr>
+            <tr>
+                <td> <label for="levelOfStudies">Επίπεδο Σπουδών</label></td>
+                <td><select name="" id="levelOfStudies">
+                    <option value="BSc">BSc</option>
+                    <option value="MSc">MSc</option>
+                    <option value="PhD">PhD</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="comments">Σχόλια</label></td>
+                <td><textarea name="" id="comments" cols="30" rows="10"></textarea><br></td>
+            </tr>
+            <tr>
+                <td><label for="login">Login(e-mail)</label></td>
+                <td><input type="email" id="login" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" required minlength="8"></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Αποστολή</button></td>
+            </tr>
+        
+        </table>
+
+    </form>
+    <br><br>
+
+<button type="button" onclick="console.log('Hello DH 2021!')">Check Submission</button>
+
+
+</body>
+
+
+
+
+</html>
